@@ -16,6 +16,10 @@ background-color: white;
   clear: both;
   display: block;
 }
+.explanation{
+  float: left;
+  width: 468px;
+}
 
 
 body{
