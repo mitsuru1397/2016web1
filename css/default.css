@@ -32,6 +32,10 @@ body{
   width: 50%;
 }
 
+header{
+  background-color:lightgray;
+}
+
 u1{
   list-style: none; /*・を消す*/
   margin: 0;
