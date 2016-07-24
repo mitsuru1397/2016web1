@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+#main{
+  width: 960px;
+  margin: 40px auto;
+padding: 40px 80px;
+border: green 1px solid;
+background-color: white;
+}
+
+
 body{
   background-color: gray;
   width:50%
@@ -27,3 +36,18 @@ li{
   display: block;
   clear: both;
 }
+
+dt{
+  clear: left;
+  float: left;
+  font-weight: hold;
+}
+
+#ingredient{
+  border: 2px solid lightcoral;
+}
+
+th, td{
+  border: 1px solid lightcoral;
+}
+
