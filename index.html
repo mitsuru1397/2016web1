@@ -23,5 +23,29 @@
         <li><img src="thumb-IMG_4353.jpg" class="thumb" date-image="IMG_4353"></li>
       </u1>
     </section>
+    
+    <img id"gazo" onclick" changeIMG()" src="IMG_2617.jpg">
+    <script>
+      var img = new Array();
+      
+      img[0] = new Image();
+      img[0].src = "IMG_2617.jpg";
+      img[1] = new Image();
+      img[1].src = "IMG_4325";
+      img[2] = new Image();
+      img[2].src = "IMG_4353";
+      
+      var = cnt=0;
+      
+      function cangeIMG(){
+        if(cnt == 2)
+        {cnt = 0;]
+        else
+        {cnt++;}
+        
+        documetnt.getElementById("gazo").src=img[cnt].src;
+      }
+    </script>
+    
   </body>
 </html>
