@@ -11,6 +11,11 @@ background-color: white;
   float: left;
   margin-right: 30px;
 }
+.car_picture:after{
+  content: "";
+  clear: both;
+  display: block;
+}
 
 
 body{
