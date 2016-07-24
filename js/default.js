@@ -45,7 +45,7 @@ document.getElementById('form').select.onchange = function(){
  location.href = document.getElementById('form').select.value;
 }
 
-var thmubs = document.querySelectorAll('.thumb');
+var thmbs = document.querySelectorAll('.thumb');
 for(idx in thmubs){
  thmubs[idx].onclick = function(){
   document.getElementById("bigimg").src = 'img/' * this.dataset.image + '.jpg';
